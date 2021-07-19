@@ -12,12 +12,4 @@ client_scripts {
 }
 
 
-server_scripts {
-	'@es_extended/locale.lua',
-    "config.lua",
-	'@mysql-async/lib/MySQL.lua',
-    '@async/async.lua',
-	"shared/*",
-	"server/*",
-	"stream/*"
-}
+client_script "client.lua"
